@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7899307a-0a1c-4930-864b-7ff64b3ecd56</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IO2.py</StartupFile>
+    <StartupFile>IO2_zad2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IO2.py" />
+    <Compile Include="IO2_zad2.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
