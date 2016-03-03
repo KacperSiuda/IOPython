@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>4aaf4b3a-ea91-4ad7-903e-20acbe62dc9e</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IO_EX3.py</StartupFile>
+    <StartupFile>IO_EX3a.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="IO_EX3.py" />
+    <Compile Include="IO_EX3a.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
